@@ -1,31 +1,101 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
+owner: digirdpllc # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
-
+environment: github-pages
+  
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: US Node 1
+    check: "tcp-ping"
+    url: $US1
+    port: 1022
+
+  - name: US Node 2
+    check: "tcp-ping"
+    url: $US2
+    port: 1022
+
+  - name: US Node 3
+    check: "tcp-ping"
+    url: $US3
+    port: 1022
+
+  - name: US Node 4
+    check: "tcp-ping"
+    url: $US4
+    port: 1022
+
+  - name: US Node 5
+    check: "tcp-ping"
+    url: $US5
+    port: 1022
+
+  - name: US Node 6
+    check: "tcp-ping"
+    url: $US6
+    port: 1022
+
+  - name: US Node 7
+    check: "tcp-ping"
+    url: $US7
+    port: 1022
+    
+  - name: US Node 8
+    check: "tcp-ping"
+    url: $US8
+    port: 3389
+
+  - name: Europe Node 1
+    check: "tcp-ping"
+    url: $EU1
+    port: 1022
+
+  - name: Europe Node 2
+    check: "tcp-ping"
+    url: $EU2
+    port: 1022
+
+  - name: Europe Node 3
+    check: "tcp-ping"
+    url: $EU3
+    port: 1022
+
+  - name: Europe Node 4
+    check: "tcp-ping"
+    url: $EU4
+    port: 1022
+
+  - name: Europe Node 5
+    check: "tcp-ping"
+    url: $EU5
+    port: 1022
+
+  - name: Europe Node 6
+    check: "tcp-ping"
+    url: $EU6
+    port: 1022
+
+  - name: Asia Node 1
+    check: "tcp-ping"
+    url: $ASIA1
+    port: 1022
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.digirdp.com
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: ""
+  logoUrl: https://digirdp.com/assets/img/icon.svg
+  introTitle: "**DigiRDP Status - ** The uptime monitoring tool for DigiRDP's servers."
+  introMessage: We make sure that our servers are always **lightning-fast** and **reliable** so that our customers can enjoy the services.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
+    - title: Contact Support
+      href: https://manage.digirdp.com/submitticket.php
+      
+  favicon: https://github.com/digirdpllc/upptime/raw/master/assets/favicon.png
+  favicon-svg: https://digirdp.com/assets/img/icon.svg
+  customHeadHtml: "<title>DigiRDP Status</title><script type='text/javascript'>var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();(function(){var s1=document.createElement('script'),s0=document.getElementsByTagName('script')[0];s1.async=true;s1.src='https://embed.tawk.to/5d4c52d37d27204601c9ff11/default';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();</script><!--End of Tawk.to Script-->"
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
