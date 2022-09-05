@@ -44,7 +44,7 @@ sites:
     url: $US8
     port: 3389
     
-    - name: US Node 9
+  - name: US Node 9
     check: "tcp-ping"
     url: $US9
     port: 1022
