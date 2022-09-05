@@ -90,15 +90,16 @@ status-website:
   cname: status.digirdp.com
   # baseUrl: /your-repo-name
   name: ""
-  logoUrl: https://digirdp.com/assets/img/icon.svg
-  introTitle: "**DigiRDP Status - ** The uptime monitoring tool for DigiRDP's servers."
+    - logoUrl: https://digirdp.com/assets/img/icon.svg
+       href: https://digirdp.com/
+  introTitle: "**DigiRDP Status - ** Real-time monitoring tool for DigiRDP's servers."
   introMessage: We make sure that our servers are always **lightning-fast** and **reliable** so that our customers can enjoy the services.
   navbar:
     - title: Status
       href: /
     - title: Contact Support
       href: https://manage.digirdp.com/submitticket.php
-    - title: DigiRDP
+    - title: Go To DigiRDP
       href: https://digirdp.com/
       
   favicon: https://github.com/digirdpllc/upptime/raw/master/assets/favicon.png
