@@ -98,6 +98,8 @@ status-website:
       href: /
     - title: Contact Support
       href: https://manage.digirdp.com/submitticket.php
+    - title: DigiRDP
+      href: https://digirdp.com/
       
   favicon: https://github.com/digirdpllc/upptime/raw/master/assets/favicon.png
   favicon-svg: https://digirdp.com/assets/img/icon.svg
