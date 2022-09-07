@@ -103,5 +103,5 @@ status-website:
       
   favicon: https://github.com/digirdpllc/upptime/raw/master/assets/favicon.png
   favicon-svg: https://digirdp.com/assets/img/icon.svg
-  customHeadHtml: "<title>DigiRDP Status</title><script>document.getElementsByClassName('logo svelte-a08hsz')[0].href = 'https://digirdp.com';</script><script type='text/javascript'>var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();(function(){var s1=document.createElement('script'),s0=document.getElementsByTagName('script')[0];s1.async=true;s1.src='https://embed.tawk.to/5d4c52d37d27204601c9ff11/default';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();</script><!--End of Tawk.to Script-->"
-
+  customHeadHtml: "<title>DigiRDP Status</title><script type='text/javascript'>var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();(function(){var s1=document.createElement('script'),s0=document.getElementsByTagName('script')[0];s1.async=true;s1.src='https://embed.tawk.to/5d4c52d37d27204601c9ff11/default';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();</script><!--End of Tawk.to Script-->"
+  js: "document.getElementsByClassName('logo svelte-a08hsz')[0].href = 'https://digirdp.com'"
