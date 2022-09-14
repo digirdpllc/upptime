@@ -22,19 +22,19 @@
     "url": "$US2",
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "us-node-2",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 37,
-    "timeDay": 15,
-    "timeWeek": 25,
-    "timeMonth": 37,
-    "timeYear": 37,
+    "status": "up",
+    "uptime": "99.61%",
+    "uptimeDay": "96.42%",
+    "uptimeWeek": "99.49%",
+    "uptimeMonth": "99.61%",
+    "uptimeYear": "99.61%",
+    "time": 38,
+    "timeDay": 31,
+    "timeWeek": 28,
+    "timeMonth": 38,
+    "timeYear": 38,
     "dailyMinutesDown": {
-      "2022-09-14": 0
+      "2022-09-14": 52
     }
   },
   {
