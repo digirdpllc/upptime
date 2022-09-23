@@ -34,12 +34,12 @@ sites:
     url: $US6
     port: 1022
 
-  - name: US Node 7
+  - name: US Node M
     check: "tcp-ping"
     url: $US7
     port: 1022
     
-  - name: US Node 8
+  - name: US Node S
     check: "tcp-ping"
     url: $US8
     port: 3389
