@@ -47,7 +47,7 @@ sites:
   - name: US Node 9
     check: "tcp-ping"
     url: $US9
-    port: 1022
+    port: 22
 
   - name: Europe Node 1
     check: "tcp-ping"
