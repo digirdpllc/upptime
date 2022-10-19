@@ -54,10 +54,10 @@ sites:
 #     url: $US10
 #     port: 1022
 
-  - name: Europe Node 1
-    check: "tcp-ping"
-    url: $EU1
-    port: 1022
+#  - name: Europe Node 1
+#    check: "tcp-ping"
+#    url: $EU1
+#    port: 1022
 
   - name: Europe Node 2
     check: "tcp-ping"
