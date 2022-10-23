@@ -4,18 +4,20 @@
     "url": "$US1",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "us-node-1",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.81%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 42,
     "timeDay": 75,
     "timeWeek": 45,
     "timeMonth": 43,
     "timeYear": 42,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-10-23": 3
+    }
   },
   {
     "name": "US Node 2",
@@ -100,18 +102,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "us-node-6",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.90%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.98%",
+    "uptimeDay": "98.99%",
+    "uptimeWeek": "99.86%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.98%",
     "time": 61,
     "timeDay": 75,
     "timeWeek": 44,
     "timeMonth": 42,
     "timeYear": 61,
     "dailyMinutesDown": {
-      "2022-10-23": 1
+      "2022-10-23": 15
     }
   },
   {
@@ -138,18 +140,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "us-node-s",
     "status": "down",
-    "uptime": "99.35%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "97.20%",
-    "uptimeMonth": "99.35%",
-    "uptimeYear": "99.35%",
+    "uptime": "99.32%",
+    "uptimeDay": "99.08%",
+    "uptimeWeek": "97.07%",
+    "uptimeMonth": "99.32%",
+    "uptimeYear": "99.32%",
     "time": 73,
     "timeDay": 110,
     "timeWeek": 72,
     "timeMonth": 74,
     "timeYear": 73,
     "dailyMinutesDown": {
-      "2022-10-23": 0,
+      "2022-10-23": 13,
       "2022-10-22": 219,
       "2022-10-21": 63
     }
@@ -163,7 +165,7 @@
     "uptime": "99.27%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.97%",
+    "uptimeMonth": "99.00%",
     "uptimeYear": "99.27%",
     "time": 44,
     "timeDay": 21,
