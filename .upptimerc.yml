@@ -36,12 +36,12 @@ sites:
 
   - name: US Node 7
     check: "tcp-ping"
-    url: $US7_1
+    url: $US7
     port: 1022
     
   - name: US Node M
     check: "tcp-ping"
-    url: $US7
+    url: $US0
     port: 1022
     
   - name: US Node S
