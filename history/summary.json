@@ -42,24 +42,19 @@
     "url": "$US3",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "us-node-3",
-    "status": "up",
-    "uptime": "99.87%",
-    "uptimeDay": "98.93%",
-    "uptimeWeek": "99.04%",
-    "uptimeMonth": "99.66%",
-    "uptimeYear": "99.87%",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 47,
-    "timeDay": 36,
+    "timeDay": 13,
     "timeWeek": 47,
     "timeMonth": 53,
     "timeYear": 47,
     "dailyMinutesDown": {
-      "2022-11-24": 15,
-      "2022-11-23": 18,
-      "2022-11-22": 34,
-      "2022-11-19": 29,
-      "2022-11-13": 34,
-      "2022-11-11": 16
+      "2022-11-25": 0
     }
   },
   {
