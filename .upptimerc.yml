@@ -14,10 +14,10 @@ sites:
     url: $US2
     port: 1022
 
-  - name: US Node 3
-    check: "tcp-ping"
-    url: $US3
-    port: 1022
+# - name: US Node 3
+#    check: "tcp-ping"
+#    url: $US3
+#    port: 1022
 
   - name: US Node 4
     check: "tcp-ping"
